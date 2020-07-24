@@ -1,0 +1,193 @@
+body, button, input {
+  font-family: 'Questrial', sans-serif; }
+
+body {
+  margin: 0;
+  overflow: hidden; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, p, figure {
+  font-weight: normal;
+  margin: 0; }
+
+button, input {
+  border: none;
+  outline: none; }
+
+body {
+  background-image: url("bgmain2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%; }
+
+#bg-phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  transition: transform 0.6s; }
+  #bg-phone img {
+    height: 37.5rem;
+    width: 37.5rem; }
+  #bg-phone button {
+    background-color: #D5352F;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    width: 100px;
+    font-size: 1.25rem;
+    position: relative;
+    bottom: 200px;
+    left: 10px; }
+    #bg-phone button:hover {
+      opacity: 0.6; }
+
+#dimmed-bg {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(20, 20, 20, 0.86);
+  top: 0;
+  left: 0;
+  transition: all 0.6s;
+  transform: translateX(-120vw);
+  visibility: hidden; }
+
+#fullsite {
+  visibility: hidden;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+#abovefold {
+  color: white;
+  position: relative;
+  padding-left: 92px;
+  padding-top: 50px;
+  height: 100vh;
+  display: inline-block;
+  width: 94%;
+  transition: all 0.1s; }
+  #abovefold nav {
+    display: inline-block;
+    border-bottom: 1px solid #F7F7F7;
+    padding-left: 2.5rem;
+    padding-right: 3.75rem;
+    padding-bottom: 0.625rem; }
+    #abovefold nav li {
+      display: inline-block;
+      padding: 0 2.5rem; }
+    #abovefold nav li:first-child {
+      padding-left: 0; }
+    #abovefold nav a {
+      transition: opacity 0.6s;
+      color: white;
+      font-size: 1.375rem; }
+      #abovefold nav a:hover {
+        opacity: 0.6; }
+  #abovefold article {
+    margin-top: 10rem; }
+    #abovefold article h1 {
+      font-size: 2.25rem; }
+    #abovefold article p {
+      margin: 3rem 0;
+      width: 40rem;
+      line-height: 200%; }
+    #abovefold article button {
+      background-color: #CECECE;
+      color: #343334;
+      width: 300px;
+      font-size: 1.5625rem;
+      padding-left: 15px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      opacity: 0.7;
+      transition: all 0.3s; }
+      #abovefold article button:hover {
+        opacity: 0.4; }
+
+#features {
+  margin: 5rem;
+  color: white; }
+  #features article {
+    display: flex;
+    align-items: center;
+    margin: 2rem; }
+    #features article img {
+      width: 50%;
+      height: 317px;
+      transition: all 0.4s; }
+      #features article img:hover {
+        transform: scale(1.1); }
+    #features article div {
+      margin-left: 5rem; }
+      #features article div h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1.25rem; }
+      #features article div p {
+        font-size: 0.9375rem;
+        width: 60%;
+        line-height: 200%; }
+  #features article:nth-of-type(1) figure {
+    background-image: url("image1.png"); }
+  #features article:nth-of-type(2) figure {
+    background-image: url("image1.png"); }
+  #features article:nth-of-type(3) figure {
+    background-image: url("image1.png"); }
+  #features article:nth-of-type(2) {
+    position: relative;
+    left: 80px; }
+
+#testimonial {
+  background-color: rgba(25, 25, 25, 0.86);
+  margin: 12.5rem 0;
+  position: relative;
+  clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 94%); }
+  #testimonial #background {
+    width: 70vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white; }
+  #testimonial article {
+    position: relative;
+    z-index: 20;
+    padding: 6.25rem 0 4.375rem;
+    text-align: center; }
+    #testimonial article h2 {
+      text-transform: uppercase;
+      color: black;
+      margin-bottom: 2.375rem;
+      font-size: 2.1875rem; }
+    #testimonial article h4 {
+      font-size: 1.75rem; }
+      #testimonial article h4 span {
+        font-size: 2.1875rem;
+        color: #D63731; }
+    #testimonial article #reviews {
+      display: flex;
+      color: white;
+      margin: 2rem 1.5rem; }
+      #testimonial article #reviews #review {
+        line-height: 240%;
+        letter-spacing: 0.5px;
+        margin: 0 1.125rem;
+        padding: 1.5rem;
+        text-align: center;
+        background-color: #b51510; }
+      #testimonial article #reviews #review:nth-of-type(1) {
+        background-color: #d6433e; }
+      #testimonial article #reviews #review:nth-of-type(3) {
+        background-color: #d6433e; }
