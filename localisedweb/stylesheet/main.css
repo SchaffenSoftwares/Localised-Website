@@ -124,27 +124,33 @@ body {
     display: flex;
     align-items: center;
     margin: 2rem; }
-    #features article img {
-      width: 50%;
+    #features article #first {
+      width: 40%;
       height: 317px;
-      transition: all 0.4s; }
-      #features article img:hover {
+      transition: all 0.3s; }
+      #features article #first:hover {
         transform: scale(1.1); }
-    #features article div {
-      margin-left: 5rem; }
-      #features article div h2 {
-        font-size: 2.5rem;
-        margin-bottom: 1.25rem; }
-      #features article div p {
-        font-size: 0.9375rem;
-        width: 60%;
-        line-height: 200%; }
-  #features article:nth-of-type(1) figure {
-    background-image: url("image1.png"); }
-  #features article:nth-of-type(2) figure {
-    background-image: url("image1.png"); }
-  #features article:nth-of-type(3) figure {
-    background-image: url("image1.png"); }
+    #features article #second {
+      width: 310px;
+      height: 310px;
+      transition: all 0.3s; }
+      #features article #second:hover {
+        transform: scale(1.1); }
+    #features article #third {
+      width: 310px;
+      height: 310px;
+      transition: all 0.3s; }
+      #features article #third:hover {
+        transform: scale(1.1); }
+  #features div {
+    margin-left: 5rem; }
+    #features div h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1.25rem; }
+    #features div p {
+      font-size: 0.9375rem;
+      width: 80%;
+      line-height: 200%; }
   #features article:nth-of-type(2) {
     position: relative;
     left: 80px; }
@@ -182,6 +188,7 @@ body {
       margin: 2rem 1.5rem; }
       #testimonial article #reviews #review {
         line-height: 240%;
+        width: 25.5vw;
         letter-spacing: 0.5px;
         margin: 0 1.125rem;
         padding: 1.5rem;
@@ -191,3 +198,68 @@ body {
         background-color: #d6433e; }
       #testimonial article #reviews #review:nth-of-type(3) {
         background-color: #d6433e; }
+
+#download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(219, 215, 219, 0.7);
+  clip-path: polygon(24% 0, 80% 0%, 100% 20%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
+  padding-top: 5rem; }
+  #download #totaldown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 60%;
+    margin-left: 3.75rem; }
+    #download #totaldown h2 {
+      font-size: 2.5rem;
+      margin-bottom: 0.625rem;
+      text-align: center; }
+    #download #totaldown h3 {
+      font-size: 3.125rem;
+      margin-bottom: 1.875rem;
+      text-align: center; }
+    #download #totaldown a {
+      text-align: center; }
+      #download #totaldown a img {
+        width: 200px;
+        height: 58px;
+        position: relative;
+        left: 30px; }
+  #download img {
+    width: 300px;
+    height: 380px;
+    margin-right: 5rem; }
+
+#footer {
+  color: white;
+  padding-top: 2.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 1.25rem;
+  background-color: rgba(25, 25, 25, 0.86);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  #footer h4 {
+    font-size: 0.9375rem;
+    margin-top: 0.625rem; }
+  #footer hr {
+    width: 4%;
+    border: 1px solid white;
+    border-top: none; }
+  #footer #social-icons {
+    padding: 0.75rem; }
+    #footer #social-icons img {
+      width: 30px;
+      height: 30px;
+      padding: 0 0.25rem;
+      transition: all .2s; }
+      #footer #social-icons img:hover {
+        transform: scale(1.2); }

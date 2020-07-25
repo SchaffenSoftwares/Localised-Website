@@ -8,6 +8,7 @@
 body{
   @include bg-image("bgmain2.jpg");
 }
+
 #bg-phone{
   display: flex;
   flex-direction: column;
@@ -63,6 +64,7 @@ $color: #F7F7F7;
   position: absolute;
   top: 0;
   left: 0;
+
 }
 #abovefold{
   color: white;
@@ -73,7 +75,6 @@ $color: #F7F7F7;
   display: inline-block;
   width: $empty-width;
   transition: all 0.1s;
-
   nav{
     display: inline-block;
     border-bottom: 1px solid $color;

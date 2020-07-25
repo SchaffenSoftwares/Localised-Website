@@ -7,3 +7,11 @@ function enterSite()
   $("body").css("overflow","visible");
   $("#fullsite").css("max-height","auto");
 }
+
+
+$.fn.goTo = function() {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top + 'px'
+        }, 'slow');
+        return this; // for chaining...
+    }

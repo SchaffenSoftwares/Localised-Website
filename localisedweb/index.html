@@ -20,10 +20,10 @@
         <section id="abovefold">
           <nav>
             <ul>
-              <li><a href="#">Localised</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Review</a></li>
-              <li><a href="#">Download</a></li>
+              <li><a href="#" >Localised</a></li>
+              <li><a href="#" onclick="$('#features').goTo();return false;">Features</a></li>
+              <li><a href="#" onclick="$('#testimonial').goTo();return false;">Review</a></li>
+              <li><a href="#" onclick="$('#download').goTo();return false;">Download</a></li>
             </ul>
           </nav>
 
@@ -33,7 +33,7 @@
                Get groceries, medicines, restaurant food and much more at your doorstep.
                An app that directly connects you to the shopkeeper of your local area.</p>
 
-            <button type="button" name="button">Get Started</button>
+            <button type="button" name="button" onclick="$('#download').goTo();return false;">Get Started</button>
 
           </article>
 
@@ -41,7 +41,7 @@
 
         <section id="features">
           <article>
-            <img src="image1.png" alt="">
+            <img src="image1.png" id="first">
             <div>
             <h2>Location Based Shopping</h2>
             <p>Localised offers you to choose the shops near you of your requirement from a map that
@@ -53,7 +53,7 @@
           </article>
 
           <article>
-            <img src="image1.png" alt="">
+            <img src="image2.png" id="second">
             <div>
             <h2>Direct contact with the merchant</h2>
             <p>Localised also gets you to get in direct contact with the shopkeeper you are ordering from. While using
@@ -64,9 +64,9 @@
           </article>
 
           <article>
-            <img src="image1.png" alt="">
+            <img src="image3.png" id="third">
             <div>
-            <h2>Hassle free</h2>
+            <h2>Hassle free ordering</h2>
             <p>While ordering on Localised, you edit your items from your orders anytime before they get delivered to you.
                You can add items even after you have placed your order and also discard any item which you do not want to
                purchase anytime before it gets shipped since you are in direct contact with the shopkeeper. It always
@@ -87,21 +87,22 @@
 
             <section id="reviews">
               <div id="review">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat"</p>
+                <p>"Its a great app for purchasing groceries and meds online and also to order food.
+                  When you are new to town or city for job. Localised helps you to find local shops
+                  near you satisfying all your needs."</p>
               </div>
 
               <div id="review">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat"</p>
+                <p>"Localised has been really easy and hassle free to use. I really don't face any issues
+                  specially with the delivery. The goods are delivered to me by the very person of the
+                  shop only so I don't have any trust issues as well."</p>
               </div>
 
               <div id="review">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat"</p>
+                <p>"Its really a good experience using localised, specially i like the feature when there
+                  are some items not available at the time when i order but the shopkeeper can update me
+                  anytime when he has those items available with him provided my order is not out for
+                  delivery"</p>
               </div>
 
             </section>
@@ -113,14 +114,42 @@
 
 
         </section>
+
+        <section id="download">
+          <div id="bg"></div>
+          <div id="totaldown">
+            <h2>Total number of downloads</h2>
+            <h3 id="totalusers">224+</h3>
+            <a href="https://play.google.com/store/apps/details?id=com.schaffen.localised" target="_blank"><img src="googleplay.png" alt=""></a>
+          </div>
+          <img src="download1.png" alt="">
+
+        </section>
+
+        <footer id="footer">
+          <h3>Localised</h3>
+            <h4>Find us on Social Media</h4>
+            <div id="social-icons">
+                <a href="https://www.facebook.com/SchaffenSoftwares/" target="_blank"><img src="facebook.png" alt="A facebook icon."></a>
+                <a href="https://www.instagram.com/schaffen.softwares/" target="_blank"><img src="instagram.png" alt="A instagram icon."></a>
+                <a href="https://github.com/SchaffenSoftwares" target="_blank"><img src="github.png" alt="A github icon."></a>
+                <a href="https://twitter.com/schaffen_softs?lang=en" target="_blank"><img src="twitter.png" alt="A twitter icon."></a>
+                <a href="https://www.youtube.com/channel/UCD9-qa6XFWn2Hz8U4DSgFvg" target="_blank"><img src="youtube.png" alt="A youtube icon."></a>
+            </div>
+            <hr>
+            <h4>Made with love by Schaffen Softwares</h4>
+            <br>
+            <h4>Copyright 2020 - All Rights Reserved</h4>
+
+
+
+
+        </footer>
+
+
+
+
       </section>
-
-
-
-
-
-
-
 
 
 
