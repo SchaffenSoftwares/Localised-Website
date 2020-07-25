@@ -1,0 +1,5 @@
+@function pxtorem($size)
+{
+  $var: $size/16;
+  @return #{$var}rem;
+}
